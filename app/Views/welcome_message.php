@@ -23,7 +23,7 @@
 
     <nav class="auth-links">
       <a class="btn1" href="/btn1" data-i18n="sign_up">Sign up</a>
-      <a class="btn2" href="/login" data-i18n="log_in">Log in</a>
+      <a class="btn2" href="/btn2" data-i18n="log_in">Log in</a>
     </nav>
   </header>
 

@@ -18,3 +18,7 @@ $routes->get('/btn1', static function () {
 });
 
 $routes->get('home', 'home::index');
+
+$routes->get('/btn2', static function () {
+  return view('btn2');
+});
