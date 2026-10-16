@@ -34,6 +34,10 @@ const traducciones = {
   remember_me: {
     en: "Remember me",
     es: "Recordarme"
+  },
+  forgot_password: {
+    en: "Forgot Password?",
+    es: "¿Olvidaste tu contraseña?"
   }
 };
 const selectorIdioma = document.querySelector(".idioma");

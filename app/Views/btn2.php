@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <link rel="stylesheet" href="/css/StyleL.css">
-    <title>Document</title>
+    <title>Sing in</title>
 </head>
 <body>
 
@@ -52,6 +52,7 @@
                 </div>
 
                 <button type="submit" data-i18n="log_in">Log In</button>
+                <a href="/forgot-password" data-i18n="forgot">Forgot Password?</a>
             </form>
 
 

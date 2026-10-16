@@ -30,7 +30,7 @@
         <section class="singup-card">
             <h1 for="nombre" data-i18n="create_account">Create an account</h1>
 
-            <form action="/singup" method="post">
+            <form action="/signup" method="post">
                 <label for="nombre" data-i18n="name">Name</label>
                 <input
                 type="text"
