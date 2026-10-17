@@ -1,0 +1,106 @@
+.edit-main {
+    min-height: 420px;
+    padding: 40px 20px;
+    background: #f2f3f5;
+}
+
+.edit-card {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px #0002;
+}
+
+.edit-card h1 {
+    color: #291354;
+}
+
+.edit-card label {
+    display: block;
+    margin: 18px 0 6px;
+}
+
+.edit-card input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd4e2;
+    border-radius: 8px;
+}
+
+.edit-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.edit-actions button,
+.edit-actions a {
+    padding: 11px 20px;
+    border: 0;
+    border-radius: 8px;
+    background: #291354;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-errors {
+    color: #a00000;
+}
+
+.W{
+    background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.name{
+    background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.Users{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.Profile{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.Tasks{
+    background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.LogOut{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}

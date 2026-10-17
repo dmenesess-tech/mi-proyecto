@@ -1,0 +1,99 @@
+.profile-main {
+    min-height: 420px;
+    padding: 40px 20px;
+    background: #f2f3f5;
+}
+
+.profile-card {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px #0002;
+}
+
+.profile-card h1 {
+    color: #291354;
+}
+
+.profile-avatar {
+    width: 110px;
+    height: 110px;
+    display: grid;
+    place-items: center;
+    margin: 20px 0;
+    border-radius: 50%;
+    background: #b6dcf7;
+    color: #291354;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.profile-card p {
+    line-height: 1.7;
+}
+
+.profile-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    border-radius: 8px;
+    background: #291354;
+    color: white;
+    text-decoration: none;
+}
+
+.W{
+    background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.name{
+    background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.Users{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.Profile{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.Tasks{
+    background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.LogOut{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}

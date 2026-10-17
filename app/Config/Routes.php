@@ -19,3 +19,12 @@ $routes->post('forgot-password', 'Auth::sendResetLink');
 $routes->get('reset-password/(:segment)', 'Auth::resetPasswordForm/$1');
 $routes->post('reset-password/(:segment)', 'Auth::updatePassword/$1');
 
+$routes->get('welcome-sesion', function() {
+    return view('welcome-sesion');
+});
+
+$routes->get('profile', 'Auth::profile');
+$routes->get('profile/edit', 'Auth::editProfile');
+$routes->post('profile/update', 'Auth::updateProfile');
+$routes->get('logout', 'Auth::logout');
+

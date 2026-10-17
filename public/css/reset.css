@@ -1,0 +1,105 @@
+.home{
+    position: relative;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.home .welcome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    color: #ffffff;
+}
+
+header{
+    background: #2514be;
+    background: linear-gradient(to right, #0e79c0, #0422ca, #3a028f, #360070, #000000);
+    padding: 10px;
+}
+
+.reset-card{
+    width: min(100%, 420px);
+    padding: 32px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.reset-card h1{
+    margin: 0;
+    color:#25144b;
+    text-align: center;
+}
+
+.reset-card form{
+    display: grid;
+    gap: 10px;
+}
+
+.reset-cart label{
+    margin-top: 8px;
+    color: #333;
+    font-weight: 600;
+}
+.reset-card input{
+    width: 100%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.reset-card input:focus{
+    outline: 2px solid #e5dcf5;
+    border-color: #6cdcf5;
+}
+
+.reset-card small{
+    color:#666;
+}
+
+.reset-card button{
+    margin-top:16px;
+    padding: 12px;
+    border: 0;
+    border-radius: 8px;
+    background: #24144b;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.reset-card button:hover{
+    background: #422a78;
+}
+
+.reset-card input[type="checkbox"] {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0 0 auto;
+}
+
+.main-page{
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    background:#f3f4f6;
+    font-family: 'Poppins', sans-serif;
+}

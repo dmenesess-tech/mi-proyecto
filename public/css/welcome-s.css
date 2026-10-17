@@ -1,0 +1,133 @@
+.home{
+    position: relative;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.home .welcome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    color: #ffffff;
+}
+
+.list-links{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.list-links a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-links :hover{
+    color: #007bff;
+}
+
+body{
+    margin: 0;
+}
+
+.name{
+    background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.Users{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.Profile{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.Tasks{
+    background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+.LogOut{
+  background-color: #f6f8fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;  
+  cursor: pointer;
+}
+
+header{
+    background: #2514be;
+    background: linear-gradient(to right, #0e79c0, #0422ca, #3a028f, #360070, #000000);
+    padding: 10px;
+}
+
+label{
+    color: #fafafa;
+}
+
+.body{
+    width: min(100%, 420px);
+    padding: 32px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.body h1{
+    margin: 0;
+    color:#25144b;
+    text-align: center;
+}
+
+.body form{
+    display: grid;
+    gap: 10px;
+}
+
+.body label{
+    margin-top: 8px;
+    color: #333;
+    font-weight: 600;
+}
+
+.body p{
+   text-align: center;
+}

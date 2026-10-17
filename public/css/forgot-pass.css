@@ -1,0 +1,143 @@
+.home{
+    position: relative;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.home .welcome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+body{
+    margin: 0;
+}
+
+header{
+    background: #2514be;
+    background: linear-gradient(to right, #0e79c0, #0422ca, #3a028f, #360070, #000000);
+    padding: 10px;
+}
+
+label{
+    color: #fafafa;
+}
+
+.main-page{
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    background:#f3f4f6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.forgot-password-card{
+    width: min(100%, 420px);
+    padding: 32px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.forgot-password-card h1{
+    margin: 0;
+    color:#25144b;
+    text-align: center;
+}
+
+.forgot-password-card form{
+    display: grid;
+    gap: 10px;
+}
+
+.forgot-password-card label{
+    margin-top: 8px;
+    color: #333;
+    font-weight: 600;
+}
+.forgot-password-card input{
+    width: 100%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.forgot-password-card input:focus{
+    outline: 2px solid #e5dcf5;
+    border-color: #6cdcf5;
+}
+
+.forgot-password-card small{
+    color:#666;
+}
+
+.forgot-password-card button{
+    margin-top:16px;
+    padding: 12px;
+    border: 0;
+    border-radius: 8px;
+    background: #24144b;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding:10 px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.forgot-password-card button:hover{
+    background: #422a78;
+}
+
+.forgot-password-card input[type="checkbox"] {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0 0 auto;
+}
+
+.fun-buttons > *{
+    flex: 1;
+}
+
+.cancel-button{
+     margin-top:16px;
+    padding: 12px;
+    border: 0;
+    border-radius: 8px;
+    background: #24144b;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding:10 px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
